@@ -13,4 +13,11 @@ public class controller {
 
 		return "Hello World message!!!!";
 	}
+	
+	@GetMapping("/hello2")
+	public String getMessage2() {
+
+		return "Hello World message2!!!!";
+	}
+	
 }
